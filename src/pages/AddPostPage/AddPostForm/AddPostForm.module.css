@@ -1,0 +1,42 @@
+/* form */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.container {
+  width: 800px;
+  height: 200px;
+
+  display: flex;
+}
+
+.imageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentEntry {
+  flex: 3;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 24px;
+}
+
+.titleDisabled {
+  opacity: 0.3;
+}
+
+.btnsContainer {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.btn {
+  margin-right: 16px;
+}

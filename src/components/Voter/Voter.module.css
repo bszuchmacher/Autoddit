@@ -1,0 +1,20 @@
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.score i {
+  cursor: pointer;
+}
+
+.negativeScore {
+  color: #ff6a62;
+}
+
+.disableVote {
+  cursor: not-allowed;
+  opacity: 0.1;
+}
