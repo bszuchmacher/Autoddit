@@ -17,9 +17,9 @@ function Header() {
 					<Link to="/auth" className="header__right__login">
 						Log In
 					</Link>
-					<Link to="/feed" className="header__right__signup">
-						See Your Feed
-					</Link>
+// 					<Link to="/feed" className="header__right__signup">
+// 						See Your Feed
+// 					</Link>
 				</div>
 			</div>
 		</header>
