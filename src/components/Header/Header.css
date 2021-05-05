@@ -21,7 +21,6 @@
 }
 
 .header__right__auth {
-	width: 256px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
